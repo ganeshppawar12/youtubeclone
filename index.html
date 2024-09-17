@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- foont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>YouTube</title>
+  </head>
+  <body>
+    <header >
+      <div class="logo">
+        <!-- <i class="fa-solid fa-bars" style="color: #fff;"></i> -->
+         <img src="img/ham.svg" alt="">
+        <div class="youtubeicon">
+          <!-- <i class="fa-brands fa-youtube" style="color: #ff0000"></i> -->
+           <!-- <img src="img/youtubeicon1.png" alt="youtube" width="30px">
+          <p style="color: #000000;">YouTube</p> -->
+           <img src="img/download.png" alt="" width="80">
+        </div>
+      </div>
+
+      <div style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      /* flex: 1; */
+      flex: 0 1 600px;
+      /* min-width: 0; */
+      /* height: 40px; */
+  ">
+          <div style="
+      display: flex;
+      align-items: center;
+      border-radius: 20px;
+      /* padding: 10px; */
+      border: 1px solid #eaeaea;
+      justify-content: space-between;
+      height: 35px;
+      overflow: hidden;
+      flex: 1;
+  ">
+              <input type="text" placeholder="Search" style="
+      background: transparent;
+      outline: none;
+      border: none;
+      padding:  0 20px;
+      height: 50px;
+      flex: 1;
+      color: #000000;
+      font-size: 18px;
+  ">
+              <button style="
+      background: #ededed;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* overflow: hidden; */
+      /* padding: 5px; */
+      outline: none;
+      border: none;
+      /* height: fit-content; */
+      /* border-radius: 0 40px 40px 0; */
+      cursor: pointer;
+      height: 50px;
+      width: 64px;
+      
+  "> 
+  <!-- <i class="fa-solid fa-magnifying-glass" style="
+      color: #fff;
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+  "></i> -->
+  <img src="img/serachIcon.svg" alt="">
+  </button>
+          </div>
+          <button style="border: none; background: #ededed;;height: 35px;width: 35px;display: flex;align-items: center;justify-content: center; outline: none;border-radius: 100%;overflow: hidden;/* padding: 5px; */">
+          <!-- <i class="fa-solid fa-microphone" style="
+      color: #fff;
+      /* padding: 9px; */
+      background: #232222;
+      /* border-radius: 100px; */
+      /* margin-left: 12px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      /* height: 40px; */
+      /* width: 40px; */
+  "></i> -->
+  <img src="img/mic.svg" alt="">
+  </button>
+      </div>
+      <div class="profile">
+        <!-- <i class="fa-regular fa-square-plus" style="color: #fff;"></i> -->
+         <img src="img/create.svg" alt="">
+        <!-- <i class="fa-solid fa-bell" style="color: #fff;"></i> -->
+         <img src="img/bellIcon.svg" alt="">
+        <i class="fa-solid fa-user" style="color: #040404;"></i>
+
+      </div>
+    </header>
+
+
+<!-- Side bar -->
+
+<section class="main" style="display: flex;">
+<section class="sidebar" style="width: 30%;  height: 100vh; overflow-x: hidden;">
+  <div class="sideHome" >
+      <ul>
+          <li > <img src="img/home.svg" alt=""> <p>Home</p></li>
+          <li> <img src="img/shorts.svg" alt="">  <p>Shorts</p></li>
+          <li><img src="img/subscription.svg" alt=""><p>Subcription</p></li>
+      </ul>
+  </div>
+  <hr>
+  <div class="sideHome">
+      <h5 style="padding:10px 0; ">You <i class="fa-solid fa-chevron-right"></i></h5>
+      <ul>
+         <li> <img src="img/youchannel.svg" alt=""> <p>Your channel</p></li>
+          <li><img src="img/history.svg" alt=""><p>History</p></li>
+          <li><img src="img/playlist.svg" alt=""><p>Playlist</p></li>
+          <li><img src="img/yourvideo.svg" alt=""><p>Your videos</p></li>
+          <li><img src="img/watchlater.svg" alt=""><p>Watch later</p></li>
+          <li><img src="img/liked.svg" alt=""></i> <p>Liked videos</p></li>
+      </ul>
+  </div>
+  <hr>
+  <div class="sideHome">
+      <h5 style="padding:10px 0; color: #636363; ">Subscriptions</h5>
+      <ul>
+          <li><img src="img/channels4_profile (1).jpg" alt=""> <p>CarryMinati</p></li>
+          <li><img src="img/channels4_profile (2).jpg" alt=""><p>Indian Super ..</p> </li>
+          <li><img src="img/channels4_profile (3).jpg" alt=""> <p>Sony Soprts ..</p></li>
+          <li><img src="img/channels4_profile.jpg" alt=""> <p>ICC</p></li>
+          <li><img src="img/channels4_profile (5).jpg" alt=""> <p>Tanmay Bhat</p></li>
+          <li><img src="img/channels4_profile (6).jpg" alt=""> <p>Sony Network</p></li>
+          <li><i class="fa-solid fa-list-ul"></i> <p> All Subscriptions </p></li>
+      </ul>
+  </div>
+  <hr>
+  <div class="sideHome">
+      <h5 style="padding:10px 0;">Explore</h5>
+      <ul>
+          <li><img src="img/tranding.svg" alt=""> <p>Tranding</p></li>
+          <li><img src="img/shopping.svg" alt=""> <p>Shoping</p></li>
+          <li><img src="img/music.svg" alt=""><p>Music</p></li>
+          <li><img src="img/movies.svg" alt="movies"> <p>Movies</p></li>
+          <li><img src="img/live.svg" alt="live"> <p>Live</p></li>
+      </ul>
+  </div>
+
+
+</section>
+
+<section style="overflow-y: hidden;">
+<div class="subnavbar">
+  <ul>
+    <li>All</li>
+    <li>Cricket</li>
+    <li>Live</li>
+    <li>Finals</li>
+    <li>News</li>
+    <li>Gaming</li>
+    <li>Restaurants</li>
+    <li>Trains</li>
+    <li>Data Structures</li>
+    <li>Streets</li>
+    <li>Adaptive Sports</li>
+    <li>Computer programming</li>
+    <li>Architecture</li>
+    <li>Dramedy</li>
+    <li>Comedy</li>
+    <li>Cooking shows</li>
+    <li>Tourist destinations</li>
+    <li>Recently uploaded</li>
+    <li>new to you</li>
+  </ul>
+</div>
+<div class="hero" style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px; padding: 20px; justify-content: space-evenly;">
+
+  <div style="width: 350px; ">
+    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div style="display: flex;">
+      <img src="img/channels4_profile (6).jpg" alt="">
+      <div >
+        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p>Sony LIV</p>
+        <p>1518K views 2 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 350px;">
+    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div style="display: flex;">
+      <img src="img/channels4_profile (6).jpg" alt="">
+      <div >
+        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p>Sony LIV</p>
+        <p>1518K views 2 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 350px;">
+    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div style="display: flex;">
+      <img src="img/channels4_profile (6).jpg" alt="">
+      <div >
+        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p>Sony LIV</p>
+        <p>1518K views 2 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 350px;">
+    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div style="display: flex;">
+      <img src="img/channels4_profile (6).jpg" alt="">
+      <div >
+        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p>Sony LIV</p>
+        <p>1518K views 2 hours ago</p>
+      </div>
+    </div>
+  </div>
+  <div style="width: 350px;">
+    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div style="display: flex;">
+      <img src="img/channels4_profile (6).jpg" alt="">
+      <div >
+        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p>Sony LIV</p>
+        <p>1518K views 2 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 350px;">
+    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div style="display: flex;">
+      <img src="img/channels4_profile (6).jpg" alt="">
+      <div >
+        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p>Sony LIV</p>
+        <p>1518K views 2 hours ago</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</section>
+
+  </body>
+</html>

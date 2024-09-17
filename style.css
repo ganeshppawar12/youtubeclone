@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+   
+}
+::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    /* background-color: black; */
+    height: 60px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.youtubeicon{
+    display: flex;
+    align-items: center;
+    
+}
+.youtubeicon p{
+    margin-left: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    /* line-height: 50px; */
+    letter-spacing:-1px;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+}
+.serachinput{
+    flex: 0 1 732px;
+    min-width: 0;
+    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 20px;
+}
+.serachinput input{
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    min-width: 225px;
+    /* margin-right: 15px; */
+
+}
+
+.main{
+    display: flex;
+}
+.sidebar{
+    padding:0 10px ;
+}
+.sideHome{
+    margin-bottom: 10px ;
+}
+.sideHome ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    /* gap: 5px; */
+
+}
+.sideHome ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    width: 100%;
+
+
+}
+.sideHome ul li:hover{
+    background-color: rgb(240, 239, 239);
+    /* width: 100%; */
+}
+.sideHome h5{
+    color: rgb(26, 26, 26);
+}
+.sideHome ul li img{
+    width: 20px;
+    display: flex;
+    align-items: center;
+}
+.sideHome ul li p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.subnavbar {
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    /* padding-right: 10px; */
+    /* width: 90%; */
+}
+.subnavbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    gap: 10px;
+    white-space: nowrap;
+}
+.subnavbar ul li{
+    /* display: inline-block; */
+    display: inline !important;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #ededed;
+    border-radius: 10px;
+    display: inline-block;
+}
