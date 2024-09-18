@@ -22,6 +22,7 @@
   </head>
   <body>
     <header >
+      <nav>
       <div class="logo">
         <!-- <i class="fa-solid fa-bars" style="color: #fff;"></i> -->
          <img src="img/ham.svg" alt="">
@@ -33,76 +34,14 @@
         </div>
       </div>
 
-      <div style="
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
-      /* flex: 1; */
-      flex: 0 1 600px;
-      /* min-width: 0; */
-      /* height: 40px; */
-  ">
-          <div style="
-      display: flex;
-      align-items: center;
-      border-radius: 20px;
-      /* padding: 10px; */
-      border: 1px solid #eaeaea;
-      justify-content: space-between;
-      height: 35px;
-      overflow: hidden;
-      flex: 1;
-  ">
-              <input type="text" placeholder="Search" style="
-      background: transparent;
-      outline: none;
-      border: none;
-      padding:  0 20px;
-      height: 50px;
-      flex: 1;
-      color: #000000;
-      font-size: 18px;
-  ">
-              <button style="
-      background: #ededed;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      /* overflow: hidden; */
-      /* padding: 5px; */
-      outline: none;
-      border: none;
-      /* height: fit-content; */
-      /* border-radius: 0 40px 40px 0; */
-      cursor: pointer;
-      height: 50px;
-      width: 64px;
-      
-  "> 
-  <!-- <i class="fa-solid fa-magnifying-glass" style="
-      color: #fff;
-      display: flex;
-      align-items: center;
-      font-size: 18px;
-  "></i> -->
+      <div class="searchbox">
+          <div class="serachinput">
+              <input type="text" placeholder="Search">
+              <button> 
   <img src="img/serachIcon.svg" alt="">
   </button>
           </div>
           <button style="border: none; background: #ededed;;height: 35px;width: 35px;display: flex;align-items: center;justify-content: center; outline: none;border-radius: 100%;overflow: hidden;/* padding: 5px; */">
-          <!-- <i class="fa-solid fa-microphone" style="
-      color: #fff;
-      /* padding: 9px; */
-      background: #232222;
-      /* border-radius: 100px; */
-      /* margin-left: 12px; */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 20px;
-      /* height: 40px; */
-      /* width: 40px; */
-  "></i> -->
   <img src="img/mic.svg" alt="">
   </button>
       </div>
@@ -114,7 +53,7 @@
         <i class="fa-solid fa-user" style="color: #040404;"></i>
 
       </div>
-    </header>
+   </nav> </header>
 
 
 <!-- Side bar -->
@@ -194,73 +133,74 @@
 </div>
 <div class="hero" style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px; padding: 20px; justify-content: space-evenly;">
 
-  <div style="width: 350px; ">
-    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
-    <div style="display: flex;">
+  <div class="videoinfo">
+    <img src="img/img1 (7).png" alt="" >
+    <div class="videoDes">
       <img src="img/channels4_profile (6).jpg" alt="">
-      <div >
-        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
-        <p>Sony LIV</p>
-        <p>1518K views 2 hours ago</p>
+      <div class="videoTitel">
+        <p class="titel">india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p class="channelname">Sony LIV</p>
+        <p class="views">158K views <span> 2 hours ago</span></p>
       </div>
     </div>
   </div>
 
-  <div style="width: 350px;">
-    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
-    <div style="display: flex;">
-      <img src="img/channels4_profile (6).jpg" alt="">
-      <div >
-        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
-        <p>Sony LIV</p>
-        <p>1518K views 2 hours ago</p>
+  <div class="videoinfo" style="width: 350px;">
+    <img src="img/img1 (9).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div class="videoDes" style="display: flex;">
+      <img src="img/channels4_profile (5).jpg" alt="">
+      <div class="videoTitel" >
+        <p class="titel">india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p class="channelname">Sony LIV</p>
+        <p class="views">108K views <span>  1 days ago</span></p>
       </div>
     </div>
   </div>
 
-  <div style="width: 350px;">
-    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
-    <div style="display: flex;">
-      <img src="img/channels4_profile (6).jpg" alt="">
-      <div >
-        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
-        <p>Sony LIV</p>
-        <p>1518K views 2 hours ago</p>
+  <div class="videoinfo" style="width: 350px;">
+    <img src="img/img1 (9).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div class="videoDes" style="display: flex;">
+      <img src="img/channels4_profile (3).jpg" alt="">
+      <div class="videoTitel" >
+        <p class="titel">india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p class="channelname">Sony LIV</p>
+        <p class="views">1518K views <span> 12 days ago</span></p>
       </div>
     </div>
   </div>
 
-  <div style="width: 350px;">
-    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
-    <div style="display: flex;">
-      <img src="img/channels4_profile (6).jpg" alt="">
-      <div >
-        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
-        <p>Sony LIV</p>
-        <p>1518K views 2 hours ago</p>
-      </div>
-    </div>
-  </div>
-  <div style="width: 350px;">
-    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
-    <div style="display: flex;">
-      <img src="img/channels4_profile (6).jpg" alt="">
-      <div >
-        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
-        <p>Sony LIV</p>
-        <p>1518K views 2 hours ago</p>
+  <div class="videoinfo" style="width: 350px;">
+    <img src="img/img1 (9).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div class="videoDes" style="display: flex;">
+      <img src="img/channels4_profile (2).jpg" alt="">
+      <div class="videoTitel" >
+        <p class="titel">india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p class="channelname">Sony LIV</p>
+        <p class="views">1518K views 2 hours ago</p>
       </div>
     </div>
   </div>
 
-  <div style="width: 350px;">
-    <img src="img/img1 (7).png" alt="" width="350px" style=" border-radius: 10px;">
-    <div style="display: flex;">
+  <div class="videoinfo" style="width: 350px;">
+    <img src="img/img1 (9).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div class="videoDes" style="display: flex;">
+      <img src="img/channels4_profile (1).jpg" alt="">
+      <div class="videoTitel" >
+        <p class="titel">india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p class="channelname">Sony LIV</p>
+        <p class="views">1518K views 2 hours ago</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="videoinfo" style="width: 350px;">
+    <img src="img/img1 (9).png" alt="" width="350px" style=" border-radius: 10px;">
+    <div class="videoDes" style="display: flex;">
       <img src="img/channels4_profile (6).jpg" alt="">
-      <div >
-        <p>india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
-        <p>Sony LIV</p>
-        <p>1518K views 2 hours ago</p>
+      <div class="videoTitel" >
+        <p class="titel">india vs China | Hindi | Highlights | Mens's Asian Champions Trophy</p>
+        <p class="channelname">Sony LIV</p>
+        <p class="views">1518K views 2 hours ago</p>
       </div>
     </div>
   </div>

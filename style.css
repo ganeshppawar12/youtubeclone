@@ -9,13 +9,23 @@
     display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
 }
 header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding:0 20px;
-    /* background-color: black; */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 60px;
+    background-color:#fff;
+
+}
+nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding:0 20px;
+height: 60px;
+
+/* background-color: black; */
 }
 
 .logo{
@@ -23,6 +33,7 @@ header{
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    cursor: pointer;
 }
 .youtubeicon{
     display: flex;
@@ -38,23 +49,49 @@ header{
 }
 .searchbox{
     display: flex;
-    align-items: center;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      /* flex: 1; */
+      flex: 0 1 600px;
+      /* min-width: 0; */
+      /* height: 40px; */
 }
 .serachinput{
-    flex: 0 1 732px;
-    min-width: 0;
-    display: flexbox;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    border: 1px solid gray;
-    padding: 5px;
-    border-radius: 20px;
+      align-items: center;
+      border-radius: 20px;
+      /* padding: 10px; */
+      border: 1px solid #eaeaea;
+      justify-content: space-between;
+      height: 35px;
+      overflow: hidden;
+      flex: 1;
 }
 .serachinput input{
-    border: none;
+    background: transparent;
+      outline: none;
+      border: none;
+      padding:  0 20px;
+      height: 50px;
+      flex: 1;
+      color: #000000;
+      font-size: 18px;
+}
+.serachinput button{
+    background: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    /* padding: 5px; */
     outline: none;
-    padding: 0 10px;
+    border: none;
+    /* height: fit-content; */
+    /* border-radius: 0 40px 40px 0; */
+    cursor: pointer;
+    height: 50px;
+    width: 64px;
 }
 .profile{
     display: flex;
@@ -63,11 +100,16 @@ header{
     gap: 20px;
     min-width: 225px;
     /* margin-right: 15px; */
+  
 
 }
 
+.profile img , i{
+    cursor: pointer;
+}
 .main{
     display: flex;
+    margin-top: 60px;
 }
 .sidebar{
     padding:0 10px ;
@@ -95,6 +137,7 @@ header{
 }
 .sideHome ul li:hover{
     background-color: rgb(240, 239, 239);
+    cursor: pointer;
     /* width: 100%; */
 }
 .sideHome h5{
@@ -112,8 +155,13 @@ header{
 .subnavbar {
     overflow-y: hidden;
     scroll-behavior: smooth;
-    /* padding-right: 10px; */
-    /* width: 90%; */
+   
+    width:100vw;
+    position: fixed;
+    padding: 0 10px 10px 10px;
+    /* margin-top: 60px; */
+    background-color: #fff;
+
 }
 .subnavbar ul{
     display: flex;
@@ -132,4 +180,46 @@ header{
     background-color: #ededed;
     border-radius: 10px;
     display: inline-block;
+    cursor: pointer;
+}
+.subnavbar ul li:hover{
+    background-color: #dddddd;
+}
+.hero{
+    margin-top: 30px;
+
+}
+.videoinfo{
+    width: 350px;;
+}
+.videoinfo img{
+    width: 350px;
+    border-radius: 10px;
+}
+.videoDes{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 5px;
+    gap: 10px;
+}
+.videoDes img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* margin-right: 5px; */
+}
+.videoTitel .titel{
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 5px;
+}
+.channelname,.views{
+    font-size: 12px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 5px;
+}
+.views span{
+    margin-left: 10px;
 }
